@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Nguyen's Resume</title>
+
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header a {
+            color: #00f; /* Light blue color for links */
+            text-decoration: none;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 0 0 48%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .objective,
+        .skills,
+        .experience,
+        .education,
+        .awards {
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        #downloadButton {
+            background-color: #00f;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ivan Nguyen</h1>
+        <p>123 Engineer Lane, Tech City<br>
+            Phone: (555) 123-4567<br>
+            Email: ivan.johnson@email.com<br>
+            LinkedIn: <a href="https://linkedin.com/in/ivannguyen" target="_blank">linkedin.com/in/ivannguyen</a><br>
+            GitHub: <a href="https://github.com/ivanengineer" target="_blank">github.com/ivanengineer</a></p>
+    </header>
+
+    <section class="container">
+
+        <div class="column">
+            <div class="objective">
+                <h2>Objective</h2>
+                <p>Aspiring engineering student seeking opportunities to apply theoretical knowledge and gain hands-on experience in a dynamic engineering environment.</p>
+            </div>
+
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python, Java, C++</li>
+                    <li>CAD Software: AutoCAD, SolidWorks</li>
+                    <li>Data Analysis: MATLAB, Excel</li>
+                    <li>Problem Solving: Strong analytical and critical thinking skills</li>
+                    <li>Teamwork: Collaborative approach in group projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="experience">
+                <h2>Work Experience</h2>
+                <h3>Intern - XYZ Engineering Solutions, Tech City</h3>
+                <p>(June 2022 - August 2022)</p>
+                <ul>
+                    <li>Assisted in designing and optimizing mechanical components for client projects.</li>
+                    <li>Conducted feasibility studies on proposed engineering solutions.</li>
+                    <li>Collaborated with senior engineers on various stages of project development.</li>
+                </ul>
+
+                <h3>Engineering Assistant - ABC Innovations, Inc., Innovationville</h3>
+                <p>(January 2021 - May 2022)</p>
+                <ul>
+                    <li>Supported the research and development team in prototyping new products.</li>
+                    <li>Conducted testing and analysis of product prototypes to ensure functionality.</li>
+                    <li>Assisted in drafting technical documentation and reports.</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Science in Mechanical Engineering</strong><br>
+                    University of Technology, Tech City (Expected Graduation: May 2023)</p>
+                <p><strong>Relevant Coursework:</strong> Thermodynamics, Fluid Mechanics, Mechanical Design<br>
+                    <strong>GPA:</strong> 3.8/4.0</p>
+            </div>
+
+            <div class="awards">
+                <h2>Awards</h2>
+                <p><strong>Outstanding Engineering Student Award</strong><br>
+                    Awarded by the University of Technology for academic excellence and contributions to engineering projects.</p>
+                <p><strong>Innovation Excellence Award</strong><br>
+                    Recognized at ABC Innovations, Inc. for outstanding contributions to the development of a cutting-edge product.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="downloadButton" onclick="downloadPDF()">Download PDF</div>
+
+    <footer>
+        <p>&copy; 2023 Ivan Nguyen - Resume Website</p>
+    </footer>
+
+    <script>
+        function downloadPDF() {
+            // Add PDF generation and download logic here
+            alert("PDF download functionality will be implemented here.");
+        }
+    </script>
+
+</body>
+
+</html>
